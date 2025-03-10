@@ -4,6 +4,7 @@ class Scene1 extends Phaser.Scene {
     }
 
     create() {
+        game.scene.add('default', Scene1);
         this.add.image(0, 0, 'background1').setOrigin(0,0)
         this.add.text(100, 100, 'Scene 1', { fill: '#0f0' });
         this.input.keyboard.on('keydown-SPACE', () => {
@@ -18,6 +19,7 @@ class Scene2 extends Phaser.Scene {
     }
 
     create() {
+        game.scene.add('default', Scene2);
         this.add.image(0, 0, 'background2').setOrigin(0,0)
         this.add.text(100, 100, 'Scene 2', { fill: '#0f0' });
         this.input.keyboard.on('keydown-SPACE', () => {
@@ -32,6 +34,7 @@ class Scene3 extends Phaser.Scene {
     }
 
     create() {
+        game.scene.add('default', Scene3);
          this.add.image(0, 0, 'background3').setOrigin(0,0)
         this.add.text(100, 100, 'Scene 3', { fill: '#0f0' });
         this.input.keyboard.on('keydown-SPACE', () => {
@@ -45,7 +48,8 @@ class Scene4 extends Phaser.Scene {
         super({ key: 'Scene4' });
     }
 
-    create() {
+    create() 
+        game.scene.add('default', Scene4);
          this.add.image(0, 0, 'background4').setOrigin(0,0)
         this.add.text(100, 100, 'Scene 4', { fill: '#0f0' });
         this.input.keyboard.on('keydown-SPACE', () => {
@@ -60,6 +64,7 @@ class Scene5 extends Phaser.Scene {
     }
 
     create() {
+        game.scene.add('default', Scene5);
          this.add.image(0, 0, 'background5').setOrigin(0,0)
         this.add.text(100, 100, 'Scene 5', { fill: '#0f0' });
         this.input.keyboard.on('keydown-SPACE', () => {
