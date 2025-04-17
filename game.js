@@ -37,7 +37,7 @@ class Scene3 extends Phaser.Scene {
         super({ key: 'Scene3' });
     }
  preload() {
-        this.load.image('background3', 'path/to/background3.png');
+        this.load.image('background3', 'background3.png');
     }
     create() {
         game.scene.add('default', background3)
