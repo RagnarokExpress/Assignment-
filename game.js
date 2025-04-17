@@ -6,7 +6,7 @@ class Scene1 extends Phaser.Scene {
         this.load.image('background1', 'background1.jpg');
  }
     create() {
-        game.scene.add('default', background1)
+        game.scene.add('default', 'background1')
         this.add.image(0, 0, 'background1').setOrigin(0,0)
         this.add.text(100, 100, 'Scene 1', { fill: '#0f0' });
         this.input.keyboard.on('keydown-SPACE', () => {
@@ -23,7 +23,7 @@ class Scene2 extends Phaser.Scene {
         this.load.image('background2', 'background2.jpg');
     }
     create() {
-        game.scene.add('default', background2)
+        game.scene.add('default', 'background2')
         this.add.image(0, 0, 'background2').setOrigin(0,0)
         this.add.text(100, 100, 'Scene 2', { fill: '#0f0' });
         this.input.keyboard.on('keydown-SPACE', () => {
@@ -40,7 +40,7 @@ class Scene3 extends Phaser.Scene {
         this.load.image('background3', 'background3.png');
     }
     create() {
-        game.scene.add('default', background3)
+        game.scene.add('default', 'background3')
          this.add.image(0, 0, 'background3').setOrigin(0,0)
         this.add.text(100, 100, 'Scene 3', { fill: '#0f0' });
         this.input.keyboard.on('keydown-SPACE', () => {
@@ -57,7 +57,7 @@ class Scene4 extends Phaser.Scene {
         this.load.image('background4', 'background4.jpg');
     }
     create() {
-        game.scene.add('default', background4)
+        game.scene.add('default', 'background4')
          this.add.image(0, 0, 'background4').setOrigin(0,0)
         this.add.text(100, 100, 'Scene 4', { fill: '#0f0' });
         this.input.keyboard.on('keydown-SPACE', () => {
@@ -74,7 +74,7 @@ class Scene5 extends Phaser.Scene {
         this.load.image('background5', 'background5.jpg');
     }
     create() {
-        game.scene.add('default', background5)
+        game.scene.add('default', 'background5')
          this.add.image(0, 0, 'background5').setOrigin(0,0)
         this.add.text(100, 100, 'Scene 5', { fill: '#0f0' });
         this.input.keyboard.on('keydown-SPACE', () => {
