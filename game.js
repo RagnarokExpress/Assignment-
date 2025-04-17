@@ -3,7 +3,7 @@ class Scene1 extends Phaser.Scene {
         super({ key: 'Scene1' });
     }
  preload() {
-        this.load.image('background1', 'path/to/background1.png');
+        this.load.image('background1', 'background1.jpg');
  }
     create() {
         game.scene.add('default', background1)
@@ -20,7 +20,7 @@ class Scene2 extends Phaser.Scene {
         super({ key: 'Scene2' });
     }
  preload() {
-        this.load.image('background2', 'path/to/background2.png');
+        this.load.image('background2', 'background2.jpg');
     }
     create() {
         game.scene.add('default', background2)
@@ -54,7 +54,7 @@ class Scene4 extends Phaser.Scene {
         super({ key: 'Scene4' });
     }
  preload() {
-        this.load.image('background4', 'path/to/background4.png');
+        this.load.image('background4', 'background4.jpg');
     }
     create() {
         game.scene.add('default', background4)
@@ -71,7 +71,7 @@ class Scene5 extends Phaser.Scene {
         super({ key: 'Scene5' });
     }
  preload() {
-        this.load.image('background5', 'path/to/background5.png');
+        this.load.image('background5', 'background5.jpg');
     }
     create() {
         game.scene.add('default', background5)
